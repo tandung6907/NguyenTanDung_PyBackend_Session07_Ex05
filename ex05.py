@@ -58,7 +58,6 @@ from datetime import datetime, timezone
 from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
-from fastapi.testclient import TestClient
 
 app = FastAPI()
 
